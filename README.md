@@ -25,3 +25,12 @@ Build a API (e.g. RESTful) that:
 - Allows clients to reserve an available slot.
 - Allows clients to confirm their reservation.
 
+--------------------------------------------------------
+**Technology Stack**
+
+1. C#.net Web API
+2. MS SQL
+
+
+
+
