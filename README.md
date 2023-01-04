@@ -26,10 +26,31 @@ Build a API (e.g. RESTful) that:
 - Allows clients to confirm their reservation.
 
 --------------------------------------------------------
-**Technology Stack**
+## Technology Stack
 
 1. C#.net Web API
 2. MS SQL
+
+**How to configure and run the application**
+
+1.  First we have to create new Reservation database with the following tables(Required script kept in Database folder. (SQLDatabaseScript.sql)
+    1.1 Client
+    1.2 Provider
+    1.3 ProviderSlot
+    1.4 ClientSlot
+
+2.  Load Some Clients and Provider seed data in Clients and Provider table (Sample script is kept in Database folder SampleSeedData.sql)
+3.  Update the database connection string in appsettings.json file 
+     "ConnectionStrings": {
+        "DefaultConnection": "Server=POINT;Database=Reservation;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
+      }
+4. Now we are good with all configuration now we can run the application. 
+
+
+
+
+
+
 
 
 
