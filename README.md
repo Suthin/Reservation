@@ -41,6 +41,7 @@ Build a API (e.g. RESTful) that:
 
 2.  Load Some Clients and Provider seed data in Clients and Provider table (Sample script is kept in Database folder Reservation/Reservation/Database/SampleSeedData.sql)
 3.  Update the database connection string in appsettings.json file 
+
      "ConnectionStrings": {
         "DefaultConnection": "Server=POINT;Database=Reservation;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True"
       }
