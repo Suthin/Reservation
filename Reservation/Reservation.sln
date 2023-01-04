@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation", "Reservation\Reservation.csproj", "{7A5CEEA5-03A7-4AE8-A75A-09D6AE0E0DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.xUnitTest.Library", "Reservation.xUnitTest.Library\Reservation.xUnitTest.Library.csproj", "{6E495212-F5E9-42CA-A29A-D15F67229C90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A5CEEA5-03A7-4AE8-A75A-09D6AE0E0DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5CEEA5-03A7-4AE8-A75A-09D6AE0E0DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5CEEA5-03A7-4AE8-A75A-09D6AE0E0DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5CEEA5-03A7-4AE8-A75A-09D6AE0E0DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E495212-F5E9-42CA-A29A-D15F67229C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E495212-F5E9-42CA-A29A-D15F67229C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E495212-F5E9-42CA-A29A-D15F67229C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E495212-F5E9-42CA-A29A-D15F67229C90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83CAD5BB-0009-45E4-ACBD-BB2F2F58015F}
+	EndGlobalSection
+EndGlobal

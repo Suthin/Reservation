@@ -3,3 +3,8 @@
 ################################################################################
 
 /Reservation/Reservation.xUnitTest.Library/bin/Debug/net6.0
+/Reservation/Reservation.xUnitTest.Library/obj
+/Reservation/Reservation/bin/Debug/net6.0
+/Reservation/Reservation/obj
+/Reservation/.vs/Reservation/v17
+/Reservation/.vs/Reservation
